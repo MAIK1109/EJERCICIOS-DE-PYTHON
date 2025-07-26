@@ -1,0 +1,21 @@
+user_word = str(input("Ingresa Una Palabra: "))
+
+
+
+print(user_word)
+user_word_upper = user_word.upper()
+print(user_word_upper)
+for letter in user_word_upper:
+   if letter == "A":
+      continue
+   elif letter == "E":
+      continue
+   elif letter == "I":
+      continue
+   elif letter == "O":
+      continue
+   elif letter == "U":
+      continue
+
+
+   print (letter, end= '\n')
